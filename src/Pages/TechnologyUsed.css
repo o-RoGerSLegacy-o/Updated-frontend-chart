@@ -1,0 +1,22 @@
+.cardTechs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: linear-gradient(to right, #bdb9a7, #f5d5af);
+  flex-direction: column;
+}
+
+.logos {
+  display: flex;
+  /* Use flex display to align images */
+}
+
+.logos img {
+  margin: 0 10px;
+  /* Add margin to create gaps between images */
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  /* Maintain aspect ratio */
+}
